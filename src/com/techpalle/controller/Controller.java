@@ -14,7 +14,7 @@ import com.techpalle.dao.Customerdao;
 import com.techpalle.model.Customer;
 
 @WebServlet("/")
-public class CustomerController extends HttpServlet {
+public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	

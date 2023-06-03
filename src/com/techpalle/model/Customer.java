@@ -34,9 +34,9 @@ public void setMobile(long mobile) {
 }
 
 //Update operation and Display operawtion
-public Customer(int id, String name, String email, long mobile) {
+public Customer(int destination, String name, String email, long mobile) {
 	super();
-	this.id = id;
+	this.id = destination;
 	this.name = name;
 	this.email = email;
 	this.mobile = mobile;
